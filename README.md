@@ -59,7 +59,7 @@ Northflank deploys applications as **services**. Each service runs your code, pr
 
 
 
-### 6b. Configure Environment Variables  
+### 6b. Configure Environment Variables and Dockerfile 
 Environment variables can be linked to other services like the backend. I used the **Dockerfile** in my repository for deployment. Northflank automatically detected the Dockerfile and built the service seamlessly.  
 
 ![Frontend_Dockerfile_L](https://github.com/user-attachments/assets/6bc1fc33-5da4-4cc9-a150-24aa23482b8d)
