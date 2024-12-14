@@ -44,7 +44,8 @@ To make the service accessible via a custom domain, I first added and verified m
 
 I created a project using Northflank’s built-in Kubernetes cluster abstraction. The platform offers regional options across Europe, Asia, and America, which makes deployment geographically flexible.  
 
-(https://github.com/user-attachments/assets/c9d31243-3ab4-4faf-811f-8b0eb5fc6396)
+![Create_project_page_L](https://github.com/user-attachments/assets/0f4be827-61e7-432d-a6c3-df86691bda7b)
+
 
 ---
 
