@@ -99,7 +99,7 @@ I deployed both the frontend and backend as separate services. The backend servi
 
 
 ### 6g. Service Management  
-The Northflank UI provides access to container logs, monitoring, and health checks without the need for CLI commands.  
+The Northflank UI provides access to the running container, logs, monitoring, and health checks without the need for CLI commands.  
 
 #### Metrics
 ![98c3b1f97734ff4c87554d865edeffce](https://github.com/user-attachments/assets/7e09a95a-8724-4201-b2d3-c6c3f2627f6a)
