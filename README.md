@@ -65,7 +65,7 @@ Environment variables can be linked to other services like the backend. I used t
 ![Frontend_Dockerfile_L](https://github.com/user-attachments/assets/6bc1fc33-5da4-4cc9-a150-24aa23482b8d)
 
 
-> **Note:** After deploying your services, replace local endpoints in your environment variables with the Northflank-generated endpoints. For instance, update API calls from > `http://localhost:8000` to the service's public or internal URL provided by Northflank. This ensures proper connectivity between services.
+> **Note:** After deploying your services, replace local endpoints in your environment variables with the Northflank-generated endpoints. For instance, update API calls from `http://localhost:8000` to the service's public or internal URL provided by Northflank. This ensures proper connectivity between services.
 
 > Additionally, when you set up a database and associate it with a secret group, you do not need to manually configure database endpoints in your backend service environment variables. Northflank automatically appends the database environment variables (e.g., `DB_NAME`, `DB_URL`, `DB_PASSWORD`) to your backend service, using the aliases you define in the secret group. This allows you to map the database's environment variable keys to match your application's expected variable names seamlessly.
 
